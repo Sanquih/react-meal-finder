@@ -2,6 +2,10 @@
 
 This webpage, made with React and libraries such as Chakra UI, Axios, React Icons, and React Hook Form, will help you find interesting recipes by category or name.
 
+## Demo
+
+https://meek-haupia-64a81b.netlify.app/
+
 ## Development server
 
 Run `npm run dev` for a dev server. Navigate to http://localhost:5173/. The app will automatically reload if you change any of the source files.

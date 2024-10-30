@@ -6,6 +6,19 @@ This webpage, made with React and libraries such as Chakra UI, Axios, React Icon
 
 https://meek-haupia-64a81b.netlify.app/
 
+## With this project, I practiced
+
+- **Creating custom hooks:** to fetch categories and meals from the API.
+- **useEffect:** to render the categories and meals, and also to reset the search form when a category is selected.
+- **useForm:** to manage the search functionality.
+- **Axios:** to make HTTP requests to the API.
+- **Chakra UI:** using components like Grid, Card, Modal, OrderedList, VStack, etc.
+- **Skeletons:** using SkeletonText from Chakra UI while data is loading.
+
+## API used
+
+https://www.themealdb.com/api.php
+
 ## Development server
 
 Run `npm run dev` for a dev server. Navigate to http://localhost:5173/. The app will automatically reload if you change any of the source files.

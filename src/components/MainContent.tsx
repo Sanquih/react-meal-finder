@@ -16,10 +16,10 @@ function MainContent({ meals, loading, openRecipe, search }: Props) {
     meals = [];
   }
   return (
-    <SimpleGrid p={5} columns={!loading && meals.length == 0 ? [1] : [2, null, 3]} spacing="20px">
+    <SimpleGrid p={5} columns={!loading && meals.length == 0 ? [1] : [1, null, 3]} spacing="20px">
       {loading && skeletons.map(s => <SkeletonCard key={s} />)}
       {!loading && meals.length == 0
-        ? <Text>Recetas de "{search}" no encontradas...</Text>
+        ? <Text>Recipe "{search}" not found...</Text>
         : meals.map(m =>
           <MealCard openRecipe={() => openRecipe(m)} key={m.idMeal} meal={m} />)
       }

@@ -27,8 +27,8 @@ function Header({ onSubmit, resetTrigger }: Props) {
             {...register('search', { required: true })}
             bg="white"
             type='text'
-            placeholder='Intenta con "chicken" o "pork"...' />
-          <Button borderLeftRadius={0} type='submit' bgColor={secondary}>Buscar</Button>
+            placeholder='Try "chicken" or "pork"...' />
+          <Button borderLeftRadius={0} type='submit' bgColor={secondary}>Search</Button>
         </InputGroup>
       </form>
     </Container>

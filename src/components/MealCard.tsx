@@ -20,7 +20,7 @@ function MealCard({ meal, openRecipe }: Props) {
       </CardBody>
       <CardFooter pt={0}>
         <Button onClick={openRecipe} variant='solid' color="white" bgColor={primary}>
-          Ver Receta
+          See Recipe
         </Button>
       </CardFooter>
     </Card>

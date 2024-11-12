@@ -23,7 +23,7 @@ function RecipeModal({ isOpen, onClose, loading, data }: Props) {
         }
         <ModalFooter>
           <Button color="white" bg={primary} mr={3} onClick={onClose}>
-            Cerrar
+            Close
           </Button>
         </ModalFooter>
       </ModalContent>

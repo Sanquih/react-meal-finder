@@ -22,13 +22,13 @@ function SideNav({ loading, categories, selectedCategory, setSelectedCategory, o
     loading
       ? <SkeletonText mt='1' noOfLines={10} spacing='6' skeletonHeight='2' />
       : <>
-        <Heading color={primary} fontSize={12} fontWeight="bold" mb={4}>CATEGORIAS</Heading>
+        <Heading color={primary} fontSize={12} fontWeight="bold" mb={4}>CATEGORIES</Heading>
         <VStack align='stretch'>
           {categories.map((c) =>
             <Link
               key={c.strCategory}
               borderRadius="md"
-              px={2}
+              px={[1, 2]}
               py={1}
               _hover={{ textDecoration: "none" }}
               onClick={() => {

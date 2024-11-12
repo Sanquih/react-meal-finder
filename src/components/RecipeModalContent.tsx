@@ -30,11 +30,11 @@ function RecipeModalContent({ data }: Props) {
                     borderRadius="lg"
                     src={data.strMealThumb}
                 />
-                <Heading color={primary} mt={4} mb={4} size="md">Ingredientes</Heading>
+                <Heading color={primary} mt={4} mb={4} size="md">Ingredients</Heading>
                 <OrderedList>
                     {joinIngredientes(data).map((i) => <ListItem key={i}>{i}</ListItem>)}
                 </OrderedList>
-                <Heading color={primary} mt={4} mb={4} size="md">Instrucciones</Heading>
+                <Heading color={primary} mt={4} mb={4} size="md">Instructions</Heading>
                 <Text whiteSpace="pre-line">{data.strInstructions}</Text>
             </ModalBody>
         </>
